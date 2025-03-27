@@ -12,11 +12,9 @@
 }
 
 .utn {
-  color: white;
+  color: black;
   font-size: 60px;
-  position: absolute;
   z-index: 10;
-  top: 0;
 }
 
 .spanArgentina {
