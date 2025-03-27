@@ -1,0 +1,62 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.containerimagen {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.utn {
+  color: white;
+  font-size: 60px;
+  position: absolute;
+  z-index: 10;
+  top: 0;
+}
+
+.spanArgentina {
+  color: aqua;
+}
+
+.imagen {
+  width: 900px;
+  border-radius: 20px;
+}
+
+.imagen:hover {
+  transform: scale(1.1);
+  transition: all 0.4s ease-out;
+}
+
+.utn:hover {
+  transform: scale(1.1);
+  transition: all 0.4s ease-out;
+}
+
+.textoMusicaArg {
+  text-align: center !important;
+}
+
+.containerCar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  height: 400px;
+}
+
+.containerCar img {
+  width: 400px;
+  height: 230px;
+  border-radius: 40px;
+}
+
+.containerCar img:hover {
+  transform: scale(1.1);
+  transition: all 0.4s ease-out;
+}
